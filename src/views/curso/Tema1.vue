@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'1. Creatividad e innovación'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden.bg-1
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #C2F1F8")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -15,7 +15,7 @@
       span Fundamentos de innovación
     img(src='@/assets/curso/temas/4.svg', alt='')
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Innovación y creatividad: elementos fundamentales y aplicaciones prácticas
+      h2 1.1 Innovación y creatividad: elementos fundamentales y aplicaciones prácticas
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #C2F1F8")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -201,13 +201,28 @@
               p.mb-0 Cada tipo de innovación responde a desafíos específicos y se adapta a las características del entorno competitivo, permitiendo a las organizaciones posicionarse de manera estratégica en su sector.
     h3 Modelos de innovación
     p.mb-4 La implementación de modelos de innovación permite estructurar y gestionar el proceso creativo de manera sistemática. Estos modelos ofrecen marcos teóricos y prácticos que guían a las organizaciones en la transformación de ideas en soluciones reales.
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/25.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+      .tarjeta.bg-white.p-3(x="37%" y="80%" numero="+")
+        .h5.mb-2 Innovación abierta
+        p Este modelo combina ideas internas y externas para generar valor, promoviendo la colaboración entre empresas, academia y sociedad. Ejemplo: Desarrollo de vacunas mediante consorcios internacionales.
+      .tarjeta.bg-white.p-3(x="37%" y="40%" numero="+")
+        .h5.mb-2 Innovación cerrada
+        p Se enfoca en procesos internos, controlando todo el ciclo de innovación para proteger la propiedad intelectual y desarrollar capacidades exclusivas. Ejemplo: Investigación farmacéutica propia para nuevos medicamentos.
+      .tarjeta.bg-white.p-3(x="47%" y="24%" numero="+")
+        .h5.mb-2 Innovación incremental
+        p Busca mejoras continuas y graduales en productos, servicios o procesos, minimizando riesgos y maximizando eficiencia. Ejemplo: Mejora de empaques con materiales biodegradables.
+      .tarjeta.bg-white.p-3(x="53%" y="24%" numero="+")
+        .h5.mb-2 Innovación radical
+        p Introduce cambios disruptivos que transforman sectores completos. Requiere altas inversiones y tolerancia al riesgo. Ejemplo: Desarrollo de tecnología cuántica aplicada a la computación.
+      .tarjeta.bg-white.p-3(x="63%" y="40%" numero="+")
+        .h5.mb-2 Lean Startup
+        p Modelo enfocado en startups , que prioriza experimentación rápida mediante productos mínimos viables (MVP) y validación continua de hipótesis. Ejemplo: Apps lanzadas con funcionalidades básicas para pruebas de mercado.
+      .tarjeta.bg-white.p-3(x="62%" y="80%" numero="+")
+        .h5.mb-2 Triple Hélice
+        p Integra universidad, empresa y gobierno, fomentando sinergias entre investigación académica, aplicaciones prácticas y políticas públicas. Ejemplo: Parques tecnológicos para promover la innovación regional.
     p.mb-4 La selección de un modelo adecuado depende de los objetivos estratégicos, los recursos disponibles y el contexto de implementación. Cada enfoque aporta herramientas para abordar desafíos específicos y fomentar el desarrollo sostenible.
     .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
@@ -222,8 +237,8 @@
                       h3.mb-1 ¿Qué tipos de innovación existen?
                       p Para ampliar los conocimientos en los temas de innovación que has estudiado, le sugerimos explorar el siguiente vídeo:
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        span Descargar
+                      a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/8sJvf0NSk9g?si=nZ62Zj94srkCgsJ9" target="_blank")
+                        span Ver video
                         i.fas.fa-arrow-right
 
 

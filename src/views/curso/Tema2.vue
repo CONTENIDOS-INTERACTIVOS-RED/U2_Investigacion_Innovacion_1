@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'2. Tipos de investigación'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden.bg-2
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         p.mb-4 Cuando se adentra en el proceso de innovación, es esencial comprender que enfrenta una serie de etapas interconectadas y estructuradas diseñadas para transformar ideas iniciales en soluciones concretas y valiosas. Aunque podrías considerar este proceso como lineal, en la práctica moderna se revela como un sistema altamente iterativo y dinámico, en el que las diferentes fases se retroalimentan constantemente. Al trabajar en innovación, notará que es posible desarrollar varias etapas de manera simultánea o cíclica, lo cual facilita la adaptación rápida a los cambios del entorno. Las fases generales del proceso de innovación se ilustran en el Figura 2.
@@ -28,7 +28,346 @@
             .col-lg
               p.mb-0 El proceso de identificar oportunidades representa el punto de partida en cualquier iniciativa de innovación. En esta etapa, es crucial adoptar una perspectiva amplia que permita captar tendencias emergentes, necesidades no satisfechas y áreas con potencial de mejora. Según Castro Martínez y Fernández de Lucio (2020), el análisis del entorno debe combinar métodos cuantitativos y cualitativos para lograr una comprensión profunda y contextualizada.
         p.mb-0 Además, la identificación de oportunidades requiere herramientas específicas que sistematicen este proceso, así como una visión estratégica para priorizar aquellas áreas con mayor impacto potencial. Esto incluye tanto el análisis del mercado como la evaluación de aspectos tecnológicos, sociales y culturales.
-    
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/31.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Fundamentos teóricos	
+            p.mb-0 Incluyen análisis sistemático del entorno, evaluación de tendencias y detección de necesidades.
+      .col-lg-6.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/32.png" alt="")
+          .custom-image-card__text.p-4.text-center
+            h4.mb-2 Dimensiones de análisis	
+            p.mb-0 Mercado, tecnología, sociedad, economía y regulación.
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.2 Metodologías para identificar oportunidades
+    p.mb-4 El uso de herramientas y procesos sistemáticos optimiza la identificación de oportunidades, asegurando un enfoque riguroso y orientado a resultados. A continuación, se describen algunos métodos destacados:
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row
+            .col-lg-auto
+              img(src="@/assets/curso/temas/33.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h4 Herramientas analíticas
+              p.mb-0 Vigilancia tecnológica, inteligencia competitiva, análisis de tendencias, estudios de mercado.
+      .col-lg-6.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row
+            .col-lg-auto
+              img(src="@/assets/curso/temas/34.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h4 Procesos sistemáticos
+              p.mb-0 Recolección de datos, análisis de información, interpretación de resultados y priorización.
+    h3 Ejemplo práctico: Identificación en el sector financiero
+    p.mb-4 Un caso destacado es el propuesto por Martín Critikián et al. (2021) en el ámbito de la banca digital:
+    .p-5(style="background-color: #E7EFF8").mb-5
+      .row.justify-content-center.mb-5.align-items-center
+        .col-lg-6.mb-lg-0.mb-3
+          ol.lista-ol--cuadro(data-aos="fade-up")
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 1
+              p.mb-0 Oportunidad: Brecha en servicios para jóvenes.
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 2
+              p.mb-0 Método: Análisis de datos + etnografía digital.
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 3
+              p.mb-0 Resultado: Desarrollo de una nueva línea de servicios digitales adaptada a las preferencias detectadas.
+        .col-lg-6.col-7: img(src='@/assets/curso/temas/35.svg', alt='')
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.3 Ideación: Generación, evaluación y selección de ideas
+    .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #F5E9FE")
+      .row.justify-content-center.align-items-center
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") La fase de ideación representa el núcleo creativo del proceso de innovación. Aquí se fomenta el pensamiento divergente para explorar múltiples soluciones y el pensamiento convergente para estructurar ideas viables. Según Guilera y Garrell (2021), un ambiente que estimule la creatividad y el intercambio multidisciplinario es clave para el éxito de esta etapa.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/temas/36.png', alt='')
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/36.png" alt="")
+          .custom-image-card__text.p-4
+            h4.mb-2.text-center Técnicas creativas	
+            p.mb-0.text-center  Design Thinking, pensamiento lateral, lluvias de ideas estructuradas.
+      .col-lg-6.mb-4(data-aos="zoom-in-up")
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/temas/38.png" alt="")
+          .custom-image-card__text.p-4
+            h4.mb-2.text-center Espacios de ideación	
+            p.mb-0.text-center Mapas mentales, talleres colaborativos y sesiones de brainstorming dirigidas.
+    h3 Evaluación y selección de ideas
+    p.mb-4 Una vez generadas, las ideas deben ser evaluadas y filtradas mediante criterios claros y herramientas adecuadas. Esto permite seleccionar aquellas con mayor potencial para ser desarrolladas e implementadas.
+    .row.justify-content-center.mb-4
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/39.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Criterios de evaluación
+              p.mb-0 Herramientas de evaluación
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/40.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Viabilidad técnica
+              p.mb-0 Matrices de decisión, análisis multicriterio y evaluación por expertos.
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/41.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Impacto potencial	
+              p.mb-0 Métodos cuantitativos y validación cualitativa.
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/42.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Criterios de selección
+              p.mb-0 Métodos de selección
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/43.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Potencial de innovación	
+              p.mb-0 Scoring ponderado, análisis de portafolio y validación técnica.
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-color-1.p-4.mb-4.h-100(data-aos="fade-left" style="background-color: #CFF7E4")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/44.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h5 Recursos requeridos	
+              p.mb-0 Consenso estructurado y evaluación comparativa.
+    h3 Ejemplo
+    p.mb-4 Procesos de selección en sectores industrial y de servicios
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Sector industrial: caso de empresa manufacturera " :icono="require('@/assets/curso/temas/icono.svg')")
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-5.col-7.mb-lg-0.mb-3
+            img(src="@/assets/curso/temas/45.png", style="max-width: 100%")
+          .col-lg-7
+            h4 Sector industrial: caso de empresa manufacturera 
+            p.mb-0 Desafío: reducción de desperdicios.
+              br
+              |Resultados: reducción del 25% en desperdicios mediante 12 proyectos seleccionados.
+      .py-4.py-md-5(titulo="Sector servicios: caso de empresa logística" :icono="require('@/assets/curso/temas/icono.svg')")
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-5.col-7.mb-lg-0.mb-3
+            img(src="@/assets/curso/temas/46.png", style="max-width: 100%")
+          .col-lg-7
+            h4 Sector servicios: caso de empresa logística
+            p.mb-0 Desafío: optimización de última milla.
+              br
+              |Resultados: reducción del 30% en tiempos de entrega con cinco ideas seleccionadas.
+    p.mb-4 Ambos casos destacan la importancia de una evaluación rigurosa y un enfoque colaborativo para seleccionar las mejores ideas, garantizando impactos significativos en sus respectivos sectores.
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Prototipado (desarrollo, pruebas y validación)
+    .row.justify-content-center.mb-5
+      .col-lg-2.d-none.d-lg-block.order-2
+        img(src="@/assets/curso/temas/47.svg", alt="Introducción")
+      .col-lg-10
+        p.mb-0 La etapa de prototipado permite transformar las ideas seleccionadas en representaciones tangibles que faciliten su evaluación y perfeccionamiento. Este proceso ayuda a disminuir la incertidumbre y los riesgos asociados con la innovación al validar los supuestos clave antes de realizar inversiones significativas. Según Suárez Mella y Acevedo Urquiaga (2022), los prototipos pueden variar en fidelidad, desde conceptos iniciales hasta versiones funcionales avanzadas, dependiendo del tipo de innovación y el contexto.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 1.
+      span Relación entre procesos de desarrollo y sistemas de pruebas
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla-a.mb-5
+          table
+            thead.border-0
+              tr.text-center.text-white(style="background-color:#A530FE")
+                th Proceso de desarrollo
+                th Sistema de pruebas
+                
+            tbody(style="background-color: #EFF4FA")
+              tr
+                td Diseño conceptual
+                td Pruebas técnicas
+
+              tr
+                td Prototipado rápido
+
+                td Validación funcional
+
+              tr
+                td Iteración continua
+
+                td Testing de usuario
+
+              tr
+                td Validación temprana
+
+                td Pruebas de concepto
+
+              tr
+                td Mejora incremental
+                td Validación de mercado
+    h3 Ejemplo práctico de prototipado
+    .p-5(style="background-color: #F5E9FE").mb-5
+      .row.justify-content-center.mb-5.align-items-center
+        .col-lg-6.mb-lg-0.mb-3
+          p.mb-4 Sector tecnológico
+            br
+            br
+            | #[b Caso.] Desarrollo de una app educativa.
+          ol.lista-ol--cuadro(data-aos="fade-up")
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 1
+              p.mb-0 Prototipo inicial: Wireframes en papel.
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 2
+              p.mb-0 Prototipo digital: Mockups interactivos.
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 3
+              p.mb-0 Resultados: Aumento en la retención de usuarios del 25% tras 4 iteraciones.
+        .col-lg-6.col-7: img(src='@/assets/curso/temas/48.svg', alt='')
+    #t_2_5.titulo-sejson.color-acento-contenido(data-aos='fade-right')
+      h2 2.5 Implementación o comercialización
+    p.mb-4 En la etapa de implementación, la innovación se introduce al mercado o se aplica en la organización. Esta fase requiere una planificación rigurosa que integre producción, distribución y marketing, según Dorado Goyes et al. (2020). La implementación eficaz no solo se enfoca en los aspectos técnicos, sino también en la generación de valor y sostenibilidad.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Taba 2.
+      span Estrategia y comercialización
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla-a.mb-5
+          table
+            thead.border-0
+              tr.text-center.text-white(style="background-color:#A530FE")
+                th Estrategia de implementación
+                th Proceso de comercialización
+                
+            tbody(style="background-color: #EFF4FA")
+              tr
+                td Planificación detallada
+                td Estrategia de mercado
+
+              tr
+                td Gestión de recursos
+                td Modelo de negocio
+              tr
+                td Control de procesos
+                td Canales de distribución
+              tr
+                td Medición de resultados
+                td Propuesta de valor
+              tr
+                td Gestión del cambio
+                td Precio y posicionamiento
+    h3 Ejemplo práctico de prototipado
+    .p-5(style="background-color: #F5E9FE").mb-5
+      .row.justify-content-center.mb-5.align-items-center
+        .col-lg-6.mb-lg-0.mb-3
+          p.mb-4 Sector salud:
+            br
+            br
+            | #[b Caso.] Lanzamiento de un dispositivo médico innovador (Tejada Garitano et al., 2024).
+          ol.lista-ol--cuadro(data-aos="fade-up")
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 1
+              p.mb-0 Validación clínica. Realizada en 6 meses con 3 iteraciones.
+            li.d-flex 
+              .lista-ol--cuadro__vineta(style='background-color: #A530FE')
+                span(style="color: white ").fw-bold 2
+              p.mb-0 Resultados. Certificación y adopción en 15 hospitales principales.
+        .col-lg-6.col-7: img(src='@/assets/curso/temas/49.png', alt='')
+    #t_2_6.titulo-sejson.color-acento-contenido(data-aos='fade-right')
+      h2 2.6 Evaluación y retroalimentación
+    p.mb-4 La evaluación y retroalimentación representan la etapa final, donde se analizan los resultados obtenidos para identificar áreas de mejora y lecciones aprendidas. Según Crespo-Ramos et al. (2022), esta fase es clave para construir un aprendizaje organizacional que impulse futuros proyectos de innovación.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 3.
+      span Métricas en el sector educativo
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla-a.mb-5
+          table
+            thead.border-0
+              tr.text-center.text-white(style="background-color:#A530FE")
+                th Métricas clave
+                th Sector educativo
+                
+            tbody(style="background-color: #EFF4FA")
+              tr
+                td Indicadores de desempeño
+                td Engagement estudiantil: +45%
+              tr
+                td Resultados financieros
+                td Retención de contenido: +35%
+              tr
+                td Impacto en mercado
+                td ROI educativo: 250%
+              tr
+                td Eficiencia operativa
+                td Adopción institucional: 90%
+    .bg-full-width.bg-color-1.p-5.mb-4(data-aos="fade-left" style="background-color: #D6F5FA")
+          .row
+            .col-lg-auto
+              img(src="@/assets/curso/temas/50.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Este enfoque asegura que cada fase del proceso de innovación esté bien fundamentada y dirigida hacia la creación de valor sostenible para las partes interesadas. Si necesitas ajustar o ampliar alguna sección, no dudes en indicarlo.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto
+              img(src="@/assets/curso/temas/bg-icono-video.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 4 Etapas fundamentales para innovar en una pyme 
+                  p Para ampliar tus conocimientos en los temas de innovación que has estudiado, te sugerimos explorar el siguiente vídeo:
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/IdaVWfGHRFY?si=hqUUZXYaGKqCcmWQ" target="_blank")
+                    span Ver video
+                    i.fas.fa-arrow-right
+    p.mb-4 La solución creativa de problemas combina imaginación y análisis para superar desafíos con estrategias innovadoras y efectivas.
+    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8")
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+            h2.mb-4(data-aos="flip-up") Solución creativa de problemas
+            p.mb-4(data-aos="fade-right") En el documento Solución creativa de problemas , se profundiza en cómo las metodologías como Design Thinking, CPS y TRIZ  potencian la capacidad de abordar desafíos complejos en la era digital. Se invita a explorar estos enfoques y a aplicar herramientas innovadoras para transformar obstáculos en oportunidades. Este recurso es clave para desarrollar competencias esenciales en innovación y liderazgo, fundamentales para el éxito profesional. ¡Profundice en estas estrategias y fortalezca su capacidad para generar soluciones creativas! 
+
+            a.anexo.mb-4.bg-white.w-fit(href="https://www.youtube.com/live/34p8Y3fCPCo?si=w1yzHAqzuW7drTos" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Solución creativa de problemas
+
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/51.png', alt='')
+
+
+
+
+
+
+
+
+
+      
 </template>
 
 <script>
