@@ -2,22 +2,17 @@
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    p.mb-4 Seguramente, a lo largo de su vida, se han presentado fenómenos que despiertan curiosidad o problemas que lo llevan a investigar más a fondo. Esta necesidad natural de aprender y encontrar respuestas es esencial para el progreso de la sociedad.
     .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3
-        .p-4(style="background-color: #cff7e4 ")
-          p.mb-0 La investigación científica formaliza este proceso de adquisición y construcción de conocimiento. En esta unidad, se presentan los conceptos básicos, características y métodos que sustentan la investigación en diversos contextos. En un mundo que plantea constantes desafíos, comprender cómo se genera y valida el conocimiento resulta clave para cualquier profesional. Además, desarrollar habilidades investigativas fortalece la capacidad crítica y analítica en las actividades cotidianas.
-      .col-lg-4.col-7: img(src='@/assets/curso/temas/1.png', alt='')
+      .col-lg-2.d-none.d-lg-block
+        img(src="@/assets/curso/temas/1.svg", alt="Introducción")
+      .col-lg-10
+        p.mb-0 En el dinámico mundo laboral la capacidad de innovar se ha convertido en una habilidad clave para el éxito. Se enfrentará a un entorno en constante cambio, donde la adaptación y la transformación continua son la norma. Esta unidad lo sumerge en el campo de la innovación, brindándole las herramientas y metodologías necesarias para desarrollar soluciones creativas y efectivas a los desafíos actuales.
     .row.justify-content-center.mb-5
-      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2.png', alt='')
-      .col-lg-8
-        p.mb-4 Al finalizar esta unidad, se comprenderán los principios de la investigación científica y se podrán aplicar diversos enfoques metodológicos para diseñar investigaciones en el área de desempeño. Estas habilidades representan un elemento diferenciador en el entorno laboral, valorado tanto para la toma de decisiones informadas como para generar soluciones innovadoras o destacar frente a las existentes.
-        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #ecd4fe " )
-            .row.align-items-center
-              .col-lg-auto
-                img(src="@/assets/curso/temas/3.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 Se sugiere contar con conocimientos básicos en lógica y lectura crítica para aprovechar plenamente este aprendizaje. Se invita a explorar las oportunidades que ofrece la investigación científica, donde cada pregunta representa una oportunidad para descubrir y entender mejor el entorno.
+      .col-lg-7.mb-lg-0.mb-3
+        .p-4.mb-4(style="background-color: #ECD4FE")
+          p.mb-0 Al finalizar esta unidad, podrá reconocer y aplicar los fundamentos del proceso de innovación mediante un enfoque organizado, que abarca desde la generación de ideas hasta su implementación. Desarrollará habilidades esenciales para identificar oportunidades, generar ideas innovadoras, crear prototipos funcionales y llevar tus innovaciones al mercado. Este conjunto de competencias no solo enriquecerá su perfil profesional, sino que también le permitirá contribuir de manera significativa al desarrollo y la competitividad de las organizaciones donde se desempeñe.
+        p.mb-0 La unidad está estructurada en tres bloques temáticos. Comenzará explorando los conceptos de creatividad e innovación, entendiendo su relación y los diferentes tipos y modelos existentes. Luego, se sumergirá en las etapas del proceso de innovación, desde la detección de oportunidades hasta la evaluación de resultados. Finalmente, aprenderá metodologías y herramientas prácticas para la resolución creativa de problemas, que podrá aplicar en casos reales. 
+      .col-lg-5.col-7: img(src="@/assets/curso/temas/2.png", alt="Introducción")
 
 </template>
 

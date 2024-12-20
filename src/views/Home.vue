@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad aborda la investigación científica como un proceso sistemático y objetivo para generar conocimiento, destacando su rigor metodológico y su impacto en diversos contextos. Se exploran sus principios fundamentales, clasificaciones según objetivo, profundidad y tipo de datos, y métodos cualitativos, cuantitativos y mixtos. Además, se resalta la importancia del investigador como sujeto que estudia fenómenos específicos con protocolos verificables. Comprender estos conceptos y desarrollar habilidades investigativas permite diseñar estudios, fortalecer capacidades críticas y analíticas, y aportar soluciones innovadoras, esenciales en el entorno laboral y la sociedad actual.
+              p.descripcion.mb-4 La innovación y la creatividad son pilares esenciales para enfrentar desafíos en un entorno competitivo. La innovación se enfoca en la implementación de ideas mediante procesos estructurados, abarcando dimensiones estratégicas, tecnológicas y sociales. Por su parte, la creatividad genera ideas originales desde perspectivas multidimensionales, incluyendo aspectos cognitivos, emocionales y organizativos. Juntas, fomentan soluciones prácticas en sectores como educación, salud e industria. Además, herramientas como Design Thinking y metodologías ágiles potencian su impacto, mientras los modelos de innovación, como la abierta e incremental, garantizan sostenibilidad y adaptación al cambio.
                 br
                 br
-                |#[b Cada pregunta abre una puerta al conocimiento, impulsando a transformar y comprender el mundo.] 
+                | #[b Recuerde, cada idea tiene el potencial de transformar el mundo; atrévase a innovar y dejar su huella.]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

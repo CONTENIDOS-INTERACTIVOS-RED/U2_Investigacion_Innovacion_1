@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos de la investigación científica',
+    numeroUnidad: '2',
+    tituloUnidad: 'Proceso de Innovación',
   },
   menuPrincipal: {
     menu: [
