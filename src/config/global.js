@@ -105,183 +105,100 @@ export default {
   referencias: [
     {
       referencia:
-        'Arispe Alburqueque, D., Galarza Ramírez, J., Santoveña Casal, S., Solano Altaba, M., & Marín Marín, J. A. (2020). Fundamentos de la investigación científica. Editorial Universidad Nacional Autónoma de México.',
+        'Cavazos Arroyo, J. (2021). Creatividad e innovación social: Conceptos, procesos y desafíos. Revista Iberoamericana de Contaduría, Economía y Administración, 10(19), 43-59.',
       link: '',
     },
     {
       referencia:
-        'Avendaño, W. R. (2020). La investigación científica: Una introducción práctica. Editorial Siglo XXI.',
+        'Castro Martínez, E., & Fernández de Lucio, I. (2020). Innovación abierta: Retos y oportunidades para la empresa. Editorial UOC.',
       link: '',
     },
     {
       referencia:
-        'Aznar Díaz, I., Romero-Rodríguez, J. M., & Rodríguez-García, A. M. (2021). La investigación cualitativa en educación a través de la lente de género y diversidad. Revista Española de Pedagogía, 79(278), 7-22.',
+        'Chesbrough, H. (2020). Innovación abierta: Nuevos imperativos para la creación y el aprovechamiento de la tecnología. Harvard Business Review Press.',
       link: '',
     },
     {
       referencia:
-        'Galarza Ramírez, J., Gregorio Rojas, A., & Solano Altaba, M. (2024). Fundamentos y Métodos de Investigación Científica. Editorial McGraw-Hill.',
+        'Guilera, L., & Garrell, A. (2021). Creatividad e innovación: Modelos, métodos y herramientas. Editorial UOC.',
       link: '',
     },
     {
       referencia:
-        'Hervás Gómez, C., & Rodríguez-Gallego, M. R. (2020). Investigación educativa: Procedimientos y técnicas. Editorial Síntesis.',
+        'Herrera Lemus, A., & Lazcano Herrera, C. (2020). Innovación abierta: Claves para una estrategia exitosa. Editorial ESIC.',
       link: '',
     },
     {
       referencia:
-        'Marín Marín, J. A., & Boffo, S. (2021). Challenges and innovations in educational research. European Educational Research Journal, 20(2), 165-168.',
+        'Martínez-Gómez, V. (2024). Metodologías ágiles para la innovación. Editorial ESIC.',
       link: '',
     },
     {
       referencia:
-        'Molero Jurado, M. M., Pérez-Fuentes, M. C., Gázquez Linares, J. J., & Simón Márquez, M. M. (2021). Investigación cuantitativa en ciencias sociales. Editorial Dykinson.',
+        'Miranda González, F. J. (2023). Gestión estratégica de la innovación en las organizaciones. Editorial McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Ronquillo Murrieta, A., Hervás Gómez, C., & Simón Márquez, M. M. (2024). Métodos y Técnicas de Investigación en Ciencias Sociales. Editorial UNAM.',
+        'Pérez Calle, F. (2023). Innovación tecnológica y desarrollo organizacional. Editorial Universidad Nacional de Colombia.',
       link: '',
     },
     {
       referencia:
-        'Santoveña Casal, S., Aznar Díaz, I., & Romero-Rodríguez, J. M. (2020). La ética en la investigación social. Revista Española de Pedagogía, 78(275), 233-247.',
-      link: '',
-    },
-    {
-      referencia:
-        'Simón Márquez, M. M., Molero Jurado, M. M., Pérez-Fuentes, M. C., & Gázquez Linares, J. J. (2022). Metodología de la investigación en ciencias sociales. Editorial Dykinson.',
-      link: '',
-    },
-    {
-      referencia:
-        'Solano Altaba, M., Marín Marín, J. A., & Arispe Alburqueque, D. (2021). La transferencia del conocimiento en la investigación universitaria. Revista Española de Pedagogía, 79(279), 317-334.',
+        'Suárez Mella, R., & Acevedo Urquiaga, A. J. (2022). Gestión de la innovación: Procesos, modelos y aplicaciones. Editorial EcuRed.',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis de datos',
+      termino: 'Apps (<em>applications</em>)',
       significado:
-        'proceso sistemático para examinar, organizar, transformar y modelar datos, con el objetivo de generar información de valor, conclusiones y apoyar la toma de decisiones.',
+        'programas de <em>software</em> diseñados para realizar funciones específicas en dispositivos electrónicos como teléfonos móviles, tabletas, computadoras y otros.',
     },
     {
-      termino: 'Bibliografía',
+      termino: '<em>Benchmark</em>',
       significado:
-        'lista ordenada de todas las fuentes consultadas y citadas durante el proceso de investigación, siguiendo un formato específico de citación.',
+        'proceso de evaluación comparativa basado en mejores prácticas.',
     },
     {
-      termino: 'Base de datos',
+      termino: '<em>Brainstorming</em>',
       significado:
-        'conjunto organizado de información científica y académica que permite la búsqueda y recuperación de documentos relevantes para la investigación.',
+        'técnica avanzada de generación de ideas que sigue un proceso sistemático y organizado para maximizar la creatividad grupal.',
     },
     {
-      termino: 'Ciencia',
+      termino: '<em>Design Thinking</em>',
       significado:
-        'sistema organizado de conocimientos y los procesos mediante los cuales se adquieren, verifican y refinan dichos conocimientos.',
+        'metodología de innovación centrada en el usuario que consta de cinco fases: empatía, definición, ideación, prototipado y evaluación.',
     },
     {
-      termino: 'Conocimiento científico',
+      termino: '<em>Feedback</em>',
       significado:
-        'conjunto de saberes derivados de la observación y el razonamiento, sistemáticamente estructurados y de los que se deducen principios y leyes generales.',
+        'retroalimentación o información de retorno sobre un proceso o producto.',
     },
     {
-      termino: 'Confiabilidad',
+      termino: 'Innovación abierta (<em>Open Innovation</em>)',
       significado:
-        'nivel en que un instrumento produce resultados consistentes y coherentes en diferentes aplicaciones.',
+        'modelo que utiliza flujos de conocimiento interno y externo para acelerar la innovación interna y expandir mercados.',
     },
     {
-      termino: 'Diseño de investigación',
+      termino: '<em>Lean Startup</em>',
       significado:
-        'plan o estrategia de trabajo para obtener la información que se desea con el fin de responder al planteamiento del problema.',
+        'enfoque sistemático para la creación y gestión de <em>startups</em> basado en el aprendizaje validado y la experimentación científica.',
     },
     {
-      termino: 'Enfoque cualitativo',
+      termino: '<em>MVP - Minimum Viable Product</em>',
       significado:
-        'aproximación metodológica que realiza la toma de datos sin medición numérica para descubrir o afinar preguntas de investigación.',
+        'versión inicial de un producto con características mínimas necesarias para validar aprendizajes fundamentales sobre el mercado.',
     },
     {
-      termino: 'Enfoque cuantitativo',
+      termino: 'Pensamiento lateral (<em>Lateral Thinking</em>)',
       significado:
-        'aproximación metodológica que realiza la toma de datos para probar hipótesis con base en la medición numérica y el análisis estadístico.',
+        'técnica de resolución de problemas que busca aproximarse a las soluciones desde enfoques no convencionales.',
     },
     {
-      termino: 'Hipótesis',
+      termino: '<em>TRIZ - Theory of Inventive Problem Solving</em>',
       significado:
-        'proposición tentativa que propone una explicación de la relación entre dos o más variables y se somete a prueba.',
-    },
-    {
-      termino: 'Investigación científica',
-      significado:
-        'proceso metódico, organizado y objetivo, cuyo propósito es responder a una pregunta o hipótesis y así aumentar el conocimiento sobre algo desconocido.',
-    },
-    {
-      termino: 'Marco teórico',
-      significado:
-        'conjunto de conocimientos, definiciones y postulados relacionadas entre sí que presentan un punto de vista sistemático de fenómenos especificando relaciones entre variables.',
-    },
-    {
-      termino: 'Metodología',
-      significado:
-        'conjunto de operaciones y técnicas que se aplican de forma sistemática en la realización de un estudio.',
-    },
-    {
-      termino: 'Muestra',
-      significado:
-        'subconjunto representativo de una población sobre el cual se recolectarán datos.',
-    },
-    {
-      termino: 'Objetivos de investigación',
-      significado:
-        'enunciados que expresan lo que se pretende lograr con la investigación, estableciendo el alcance y la dirección del estudio.',
-    },
-    {
-      termino: 'Problema de investigación',
-      significado:
-        'situación, fenómeno o hecho que requiere una solución o explicación mediante la investigación científica.',
-    },
-    {
-      termino: 'Rigor científico',
-      significado:
-        'aplicación disciplinada del método científico, garantizando la calidad y objetividad de la investigación.',
-    },
-    {
-      termino: 'Técnicas de investigación',
-      significado:
-        'conjunto de rutinas y herramientas que sirven para el ejercicio de la ciencia o la gestión del conocimiento.',
-    },
-    {
-      termino: 'Variables',
-      significado:
-        'atributos que pueden cambiar en un fenómeno y cuyo cambio es susceptible de medirse u observarse.',
-    },
-    {
-      termino: 'Validez',
-      significado:
-        'grado en que un instrumento realmente mide la variable que pretende medir en un contexto determinado.',
-    },
-  ],
-  complementario: [
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'teoría basada en patrones predecibles en la evolución de sistemas técnicos.',
     },
   ],
 }

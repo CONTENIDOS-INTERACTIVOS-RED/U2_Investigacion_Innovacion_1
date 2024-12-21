@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'1. Creatividad e innovación'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden.bg-1
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #C2F1F8")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -10,12 +10,14 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/3.png', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .titulo-figura.mb-2(data-aos='fade-right')
       h5 Figura 1.
       span Fundamentos de innovación
     img(src='@/assets/curso/temas/4.svg', alt='')
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Innovación y creatividad: elementos fundamentales y aplicaciones prácticas
+
+    #t_1_3.titulo-segundo(data-aos="flip-up").my-5
+      h2 #[span 1.1] Innovación y creatividad: elementos fundamentales y aplicaciones prácticas
+
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #C2F1F8")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -24,21 +26,24 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/5.png', alt='')
-    h3 Elementos estructurales
-    p.mb-4 La innovación se fundamenta en la infraestructura tecnológica y el talento humano. Pérez Calle (2023) y Herrera Lemus y Lazcano Herrera (2020) destacan su importancia en términos de capacidades técnicas, herramientas y competencias.
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/6.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2 Base tecnológica	
-            p.mb-0 Infraestructura tecnológica, capacidades técnicas, herramientas de desarrollo, sistemas de gestión, plataformas de innovación
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/7.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2 Capital humano
-            p.mb-0 Competencias clave, pensamiento innovador, capacidad de adaptación, trabajo colaborativo, gestión del cambio.
+
+    .bg-full-width.bg-fondo-1.mb-5
+      .p-4.p-md-5
+        h3 Elementos estructurales
+        p.mb-4 La innovación se fundamenta en la infraestructura tecnológica y el talento humano. Pérez Calle (2023) y Herrera Lemus y Lazcano Herrera (2020) destacan su importancia en términos de capacidades técnicas, herramientas y competencias.
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/6.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2 Base tecnológica	
+                p.mb-0 Infraestructura tecnológica, capacidades técnicas, herramientas de desarrollo, sistemas de gestión, plataformas de innovación
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/7.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2 Capital humano
+                p.mb-0 Competencias clave, pensamiento innovador, capacidad de adaptación, trabajo colaborativo, gestión del cambio.
     h3 Dimensiones de la innovación
     p.mb-4 Las dimensiones de la innovación abordan distintos aspectos organizativos, tecnológicos y sociales que fortalecen el desarrollo y la sostenibilidad.
     .bg-full-width.bg-slyder.p-5.mb-5
@@ -117,45 +122,48 @@
           p.text-small(numero="6" titulo="Personal") Curiosidad, independencia de pensamiento, autorreflexión, autoeficacia creativa.
           p.text-small(numero="7" titulo="Técnica") Dominio de herramientas, conocimientos específicos, habilidades especializadas.
           p.text-small(numero="8" titulo="Temporal") Gestión del tiempo, momentos de inspiración, fases del proceso creativo.
-    h3 Aplicaciones de la innovación y creatividad
-    p.mb-4 A continuación, se presentan ejemplos prácticos que ilustran cómo la innovación y la creatividad impulsan soluciones en diversos sectores.
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/18.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Educación
-          p.mb-0.text-center Laboratorios virtuales, evaluación adaptativa, tutorías personalizadas, actividades colaborativas en línea.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/19.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Banca
-          p.mb-0.text-center Soluciones móviles personalizadas, seguridad biométrica, interfaces centradas en el usuario.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/20.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Salud
-          p.mb-0.text-center Telemedicina, diagnóstico asistido por IA, dispositivos wearables , plataformas de gestión integral de salud.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/21.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Industria
-          p.mb-0.text-center Automatización de procesos, mantenimiento predictivo, trazabilidad, gestión inteligente de inventarios.
+    
+    .bg-full-width.bg-fondo-1.mb-5
+      .p-4.p-md-5
+        h3 Aplicaciones de la innovación y creatividad
+        p.mb-4 A continuación, se presentan ejemplos prácticos que ilustran cómo la innovación y la creatividad impulsan soluciones en diversos sectores.
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/18.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Educación
+              p.mb-0.text-center Laboratorios virtuales, evaluación adaptativa, tutorías personalizadas, actividades colaborativas en línea.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/19.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Banca
+              p.mb-0.text-center Soluciones móviles personalizadas, seguridad biométrica, interfaces centradas en el usuario.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/20.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Salud
+              p.mb-0.text-center Telemedicina, diagnóstico asistido por IA, dispositivos wearables , plataformas de gestión integral de salud.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/21.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Industria
+              p.mb-0.text-center Automatización de procesos, mantenimiento predictivo, trazabilidad, gestión inteligente de inventarios.
     p.mb-4 La innovación y la creatividad son herramientas transformadoras que permiten a las organizaciones enfrentar desafíos y adaptarse a un entorno cambiante. Sus múltiples dimensiones ofrecen una base sólida para el desarrollo sostenible, la competitividad y el impacto social, promoviendo una visión integrada del progreso organizacional y cultural.
     .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8")
       .px-4.p-md-5
@@ -173,13 +181,15 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/2.png', alt='')
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Tipos de innovación
+
+
+    #t_1_2.titulo-segundo(data-aos='fade-right').my-5
+      h2 #[span 1.2] Tipos de innovación
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.png', alt='')
       .col-lg-8
-        .tarjeta.bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #ECD4FE")
-          .row.align-items-center
+        .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #ECD4FE")
+          .row.align-items-start
             .col-lg-auto
               img(src="@/assets/curso/temas/23.svg", style="max-width: 90px").mx-auto
             .col-lg
@@ -193,12 +203,14 @@
           p.text-small(numero="3" titulo="Innovación en modelos de negocio") Representa una transformación en cómo una organización crea, entrega y captura valor. Incluye cambios en la propuesta de valor, estructura de costos y relaciones estratégicas. Ejemplo: Modelos de suscripción en servicios digitales.
           p.text-small(numero="4" titulo="Innovación en mercados") Se centra en introducir métodos innovadores para comercializar productos, ya sea a través de nuevos canales, estrategias de precio o comunicación con el cliente. Ejemplo: Uso de realidad aumentada para promocionar productos.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/24.png', alt='')
-    .tarjeta.bg-full-width.bg-color-1.p-5.mb-5(data-aos="fade-left" style="background-color: #D6F5FA")
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/temas/25c.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Cada tipo de innovación responde a desafíos específicos y se adapta a las características del entorno competitivo, permitiendo a las organizaciones posicionarse de manera estratégica en su sector.
+    
+    .bg-full-width.bg-color-1.px-5.py-4.mb-5(data-aos="fade-left" style="background-color: #D6F5FA")
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/temas/25c.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 Cada tipo de innovación responde a desafíos específicos y se adapta a las características del entorno competitivo, permitiendo a las organizaciones posicionarse de manera estratégica en su sector.
+
     h3 Modelos de innovación
     p.mb-4 La implementación de modelos de innovación permite estructurar y gestionar el proceso creativo de manera sistemática. Estos modelos ofrecen marcos teóricos y prácticos que guían a las organizaciones en la transformación de ideas en soluciones reales.
     ImagenInfografica.color-primario.mb-5
@@ -223,9 +235,13 @@
       .tarjeta.bg-white.p-3(x="62%" y="80%" numero="+")
         .h5.mb-2 Triple Hélice
         p Integra universidad, empresa y gobierno, fomentando sinergias entre investigación académica, aplicaciones prácticas y políticas públicas. Ejemplo: Parques tecnológicos para promover la innovación regional.
-    p.mb-4 La selección de un modelo adecuado depende de los objetivos estratégicos, los recursos disponibles y el contexto de implementación. Cada enfoque aporta herramientas para abordar desafíos específicos y fomentar el desarrollo sostenible.
-    .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8
+    
+    .bg-full-width.bg-fondo-4.mb-5
+      .p-4.p-md-5
+        p.mb-4 La selección de un modelo adecuado depende de los objetivos estratégicos, los recursos disponibles y el contexto de implementación. Cada enfoque aporta herramientas para abordar desafíos específicos y fomentar el desarrollo sostenible.
+        
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-9
 
             .bg-color-white.shadow-soft.py-4.px-lg-5
               .row.justify-content-around.align-items-center
@@ -237,13 +253,83 @@
                       h3.mb-1 ¿Qué tipos de innovación existen?
                       p Para ampliar los conocimientos en los temas de innovación que has estudiado, le sugerimos explorar el siguiente vídeo:
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/8sJvf0NSk9g?si=nZ62Zj94srkCgsJ9" target="_blank")
+                      a.boton.color-acento-botones(href="https://youtu.be/8sJvf0NSk9g?si=nZ62Zj94srkCgsJ9" target="_blank")
                         span Ver video
                         i.fas.fa-arrow-right
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/164720" target="_blank" rel="noopener noreferrer") Chesbrough, H. (2020). Innovación abierta: Nuevos imperativos para la creación y el aprovechamiento de la tecnología. Harvard Business Press.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/21810" target="_blank" rel="noopener noreferrer") Cordovés Torres Gómez de Cádiz, L. (2022). Indicadores de innovación organizacional: Conceptos y aplicaciones. Editorial ESIC.
+
+            //- Referencias sin enlace
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Baquerizo Álava, L. V., Chan Chi, D., & Hernández Ravell, J. (2022). Transformación digital en educación superior a través de metodologías ágiles. RIED. Revista Iberoamericana de Educación a Distancia, 25(2), 197-221.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Cabera Fayos, I. (2024). Innovación educativa en la era digital: Retos y oportunidades. Editorial Síntesis.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Cabrera Paniagua, C. F. (2020). Metodología TRIZ para la innovación: Principios y aplicaciones. Editorial Universidad del Pacífico.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Castro Martínez, E., & Fernández de Lucio, I. (2020). Innovación abierta: Retos y oportunidades para la empresa. Editorial UOC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Cavazos Arroyo, J. (2021). Creatividad e innovación social: Conceptos, procesos y desafíos. Revista Iberoamericana de Contaduría, Economía y Administración, 10(19), 43-59.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Dorado Goyes, J., Sánchez López, C., & Zuluaga Trujillo, A. (2020). Innovación social y desarrollo sostenible en Colombia. Revista de Estudios Regionales, 117, 121-147.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span García Cuevas, Q., Rojas Rivera, D., & Ospina Mejía, J. (2020). Ecosistemas de innovación y desarrollo local sostenible. Cuadernos de Administración, 33(58), 85-102.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Guilera, L., & Garrell, A. (2021). Creatividad e innovación: Modelos, métodos y herramientas. Editorial UOC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Herrera Lemus, A., & Lazcano Herrera, C. (2020). Innovación abierta: Claves para una estrategia exitosa. Editorial ESIC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Hervás-Gómez, C., Cabero Fayos, I., & Tejada Garitano, E. (2024). Innovación en los procesos de enseñanza-aprendizaje: El papel de las tecnologías digitales. Editorial Síntesis.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Juajbioy Otero, J., Martín Critikián, L., & Morales Cevallos, A. (2021). Innovación y experiencia del usuario: Principios y aplicaciones. Editorial UNAM.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/LcsLi5Xhb4Y?si=TRE4XEZNfPEHkMIW" target="_blank" rel="noopener noreferrer") EAFIT- Centro de Excelencia [Juan Diego Ramos]. (2013, 6 de agosto). Ciclo de Creatividad - Creatividad vs. innovación
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/8sJvf0NSk9g?si=nZ62Zj94srkCgsJ9" target="_blank" rel="noopener noreferrer") Negocios En Tu Mundo. [Negocios en Tm]. (2018, 21 de mayo). ¿Qué tipos de innovación existen?
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
