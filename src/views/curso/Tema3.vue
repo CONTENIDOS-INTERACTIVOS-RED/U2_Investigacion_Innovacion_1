@@ -197,7 +197,7 @@
             h2.mb-4(data-aos="flip-up") Casos de estudio aplicados
             p.mb-4(data-aos="fade-right") En el documento Casos de estudio aplicados , se aborda cómo la innovación y creatividad pueden transformar empresas y comunidades. A través de ejemplos concretos como Rappi, Bancolombia, y Vía Verde, se exploran metodologías como el Design Thinking y la economía circular, ilustrando su impacto en sostenibilidad e inclusión. Este material te invita a identificar casos que se relacionen con tu contexto profesional y a profundizar en su análisis para aplicar los conocimientos adquiridos en esta unidad. ¡Aproveche los recursos disponibles y fortalezca sus competencias para liderar cambios positivos! 
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

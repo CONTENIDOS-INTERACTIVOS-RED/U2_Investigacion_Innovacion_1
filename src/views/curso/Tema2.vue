@@ -365,7 +365,7 @@
             h2.mb-4(data-aos="flip-up") Solución creativa de problemas
             p.mb-4(data-aos="fade-right") En el documento Solución creativa de problemas , se profundiza en cómo las metodologías como Design Thinking, CPS y TRIZ  potencian la capacidad de abordar desafíos complejos en la era digital. Se invita a explorar estos enfoques y a aplicar herramientas innovadoras para transformar obstáculos en oportunidades. Este recurso es clave para desarrollar competencias esenciales en innovación y liderazgo, fundamentales para el éxito profesional. ¡Profundice en estas estrategias y fortalezca su capacidad para generar soluciones creativas! 
 
-            a.anexo.mb-4.bg-white.w-fit(href="#" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
