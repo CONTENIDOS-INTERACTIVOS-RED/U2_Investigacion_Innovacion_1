@@ -190,7 +190,7 @@
               p <strong>Sitio web. </strong>  Reinvention iLab
       .col-lg-4.col-7: img(src='@/assets/curso/temas/66.png', alt='')
     p.mb-4 La innovación y la creatividad tienen el poder de transformar realidades al generar soluciones únicas y relevantes para los desafíos actuales. Estas cualidades permiten re imaginar procesos, productos y servicios, impulsando cambios positivos que impactan a las personas, las organizaciones y la sociedad. Al integrar nuevas ideas con enfoques estratégicos, se abren puertas hacia el progreso y la adaptación en un mundo en constante evolución.
-    .bg-full-width.bg-color-2(style="background-color: #E7EFF8")
+    .bg-full-width.bg-color-1
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -207,7 +207,10 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/67.png', alt='')
 
-
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
@@ -286,3 +289,129 @@ export default {
 </script>
 
 <style lang="sass"></style>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'Según Pérez Calle (2023), ¿qué elemento proporciona el soporte fundamental para la implementación efectiva de las innovaciones?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'El capital humano', esCorrecta: false },
+              { id: 'b', texto: 'La base tecnológica', esCorrecta: true },
+              { id: 'c', texto: 'Los recursos financieros', esCorrecta: false },
+              {
+                id: 'd',
+                texto: 'La estructura organizacional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La base tecnológica es el soporte fundamental según Pérez Calle (2023).',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa cuál es el soporte fundamental para la innovación según Pérez Calle (2023).',
+          },
+          {
+            id: 2,
+            texto:
+              'La dimensión organizacional de la innovación se centra exclusivamente en la estructura formal de la empresa, sin considerar aspectos culturales.',
+            imagen: '',
+            barajarRespuestas: false,
+            opciones: [
+              { id: 'a', texto: 'Verdadero', esCorrecta: false },
+              { id: 'b', texto: 'Falso', esCorrecta: true },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Es falso, también se consideran aspectos culturales.',
+            mensaje_incorrecto:
+              'Incorrecto. Recuerda que la dimensión organizacional no solo considera la estructura formal.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál de los siguientes elementos forma parte del proceso creativo según Cavazos Arroyo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Planificación lineal', esCorrecta: false },
+              { id: 'b', texto: 'Pensamiento divergente', esCorrecta: true },
+              { id: 'c', texto: 'Análisis financiero', esCorrecta: false },
+              { id: 'd', texto: 'Control de calidad', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El pensamiento divergente es clave en el proceso creativo.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los elementos del proceso creativo según Cavazos Arroyo.',
+          },
+          {
+            id: 4,
+            texto:
+              'En el modelo Lean Startup, ¿qué elemento es fundamental para la validación de hipótesis?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Plan de negocios detallado',
+                esCorrecta: false,
+              },
+              { id: 'b', texto: 'Producto Mínimo Viable', esCorrecta: true },
+              { id: 'c', texto: 'Investigación exhaustiva', esCorrecta: false },
+              { id: 'd', texto: 'Análisis competitivo', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El Producto Mínimo Viable es fundamental en Lean Startup.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa qué elemento es clave para validar hipótesis en Lean Startup.',
+          },
+          {
+            id: 5,
+            texto:
+              'El modelo de innovación abierta amplía la colaboración a departamentos externos de la organización.',
+            imagen: '',
+            barajarRespuestas: false,
+            opciones: [
+              { id: 'a', texto: 'Verdadero', esCorrecta: true },
+              { id: 'b', texto: 'Falso', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La innovación abierta implica colaboración externa.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el concepto de innovación abierta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

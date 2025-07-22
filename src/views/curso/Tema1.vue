@@ -211,9 +211,16 @@
         .col-lg
           p.mb-0 Cada tipo de innovación responde a desafíos específicos y se adapta a las características del entorno competitivo, permitiendo a las organizaciones posicionarse de manera estratégica en su sector.
 
-    h3 Modelos de innovación
+    h2.mb-5 Modelos de innovación
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/K21MaHaQ2cU?si=p1_h-gjUHSrNo1gY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
     p.mb-4 La implementación de modelos de innovación permite estructurar y gestionar el proceso creativo de manera sistemática. Estos modelos ofrecen marcos teóricos y prácticos que guían a las organizaciones en la transformación de ideas en soluciones reales.
-    ImagenInfografica.color-primario.mb-5
+    ImagenInfografica.color-primario.mb-0
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/25.svg', alt='Texto que describa la imagen')
@@ -246,7 +253,7 @@
             .bg-color-white.shadow-soft.py-4.px-lg-5
               .row.justify-content-around.align-items-center
                 .col-md-auto
-                  img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+                  img(src="@/assets/template/video.svg", style="width: 90px;")
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
