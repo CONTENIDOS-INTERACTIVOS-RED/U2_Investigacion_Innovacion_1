@@ -218,54 +218,26 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            //- Referencias sin enlace
+            //- Referencias con enlace
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Baquerizo Álava, L. V., Chan Chi, D., & Hernández Ravell, J. (2022). Transformación digital en educación superior a través de metodologías ágiles. RIED. Revista Iberoamericana de Educación a Distancia, 25(2), 197-221.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/189560" target="_blank" rel="noopener noreferrer") Cabrera Paniagua, D. (2020). Innovación: perspectivas multidisciplinarias. RIL editores.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cabrera Paniagua, C. F. (2020). Metodología TRIZ para la innovación: Principios y aplicaciones. Editorial Universidad del Pacífico.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/261664" target="_blank" rel="noopener noreferrer") Fontana, C. (2024). Superlíderes: los superpoderes de creatividad e innovación. Pluma Digital Ediciones.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Castro Martínez, E., & Fernández de Lucio, I. (2020). Innovación abierta: Retos y oportunidades para la empresa. Editorial UOC.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/217705" target="_blank" rel="noopener noreferrer") Perdomo Charry, G. (2020). El Conocimiento y la innovación: desde las empresas a las redes sociales. Fondo Editorial CEIPA.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cavazos Arroyo, J. (2021). Creatividad e innovación social: Conceptos, procesos y desafíos. Revista Iberoamericana de Contaduría, Economía y Administración, 10(19), 43-59.
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/IE0-mHKwTWo?si=VowezJFbjjeij6o7" target="_blank" rel="noopener noreferrer") Cultura 52. (2017). ¿Cómo Construir una Cultura de Innovación? [video]. YouTube.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Chan Chi, D., & Hernández Ravell, J. (2020). Innovación y transformación digital en la educación. Editorial Síntesis.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Crespo-Ramos, S., Leiva Olivencia, J. L., & Matas Terrón, A. (2022). Retos de la innovación educativa en la era digital. Editorial Síntesis.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Fontana, R. (2024). Formación de la creatividad y la innovación: Herramientas y metodologías. Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Guilera, L., & Garrell, A. (2021). Creatividad e innovación: Modelos, métodos y herramientas. Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Hervás-Gómez, C., Cabero Fayos, I., & Tejada Garitano, E. (2024). Innovación en los procesos de enseñanza-aprendizaje: El papel de las tecnologías digitales. Editorial Síntesis.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Martín Critikián, L., Juajbioy Otero, J., & Morales Cevallos, A. (2021). Teorías y modelos de innovación empresarial. Editorial UNAM.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Miranda González, F. J. (2023). Gestión estratégica de la innovación en las organizaciones. Editorial McGraw-Hill.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Monagas Docasal, M. (2022). Innovación de procesos: Optimización y eficiencia organizacional. Editorial Universidad del Rosario.
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/live/aDSH8D4xnTA?si=evP3oxEbR-izZJZa" target="_blank" rel="noopener noreferrer") Jorge Valencia. (2019). Propiedad intelectual, Colombiatex 2019 – Telemedellin [video]. YouTube.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")

@@ -387,54 +387,30 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?. LID Editorial España.
 
-            //- Referencia sin enlace
+            //- Referencias con enlace
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Baquerizo Álava, L. V., Chan Chi, D., & Hernández Ravell, J. (2022). Transformación digital en educación superior a través de metodologías ágiles. RIED. Revista Iberoamericana de Educación a Distancia, 25(2), 197-221.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/163526" target="_blank" rel="noopener noreferrer") Hervás Gómez, C. (Coord.) & Rodríguez-Gallego, M. (Coord.). (2020). Innovación e investigación en la sociedad digital. Ediciones Octaedro, S.L.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cabrera Paniagua, C. F. (2020). Metodología TRIZ para la innovación: Principios y aplicaciones. Editorial Universidad del Pacífico.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/253489?page=1" target="_blank" rel="noopener noreferrer") Martínez-Gómez, J. (Comp.). (2024). Innovación y competitividad en las organizaciones. Universidad Católica Luis Amigó.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Castro Martínez, E., & Fernández de Lucio, I. (2020). Innovación abierta: Retos y oportunidades para la empresa. Editorial UOC.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271172" target="_blank" rel="noopener noreferrer") Miranda González, F. J. (2023). La gestión de la innovación en la empresa. Servicio de Publicaciones de la Universidad de Extremadura.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cavazos Arroyo, J. (2021). Creatividad e innovación social: Conceptos, procesos y desafíos. Revista Iberoamericana de Contaduría, Economía y Administración, 10(19), 43-59.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/232623" target="_blank" rel="noopener noreferrer") Morales Cevallos, M. B. (Coord.), Vargas Serrano, A. (Coord.) & Álvarez Martínez-Iglesias, J. M. (Coord.). (2023). Innovación y transferencias de conocimientos. Dykinson.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Chesbrough, H. (2020). Innovación abierta: Nuevos imperativos para la creación y el aprovechamiento de la tecnología. Harvard Business Review Press.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/231727?page=1" target="_blank" rel="noopener noreferrer") Puello-Socarrás, G. E. & Ballén Buitrago, D. M. (2021). Seguridad y salud para el trabajador informal: ruta de innovación social para el trabajo digno. Corporación Universitaria Minuto de Dios.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Dorado Goyes, J., Sánchez López, C., & Zuluaga Trujillo, A. (2020). Innovación social y desarrollo sostenible en Colombia. Revista de Estudios Regionales, 117, 121-147.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span García Cuevas, Q., Rojas Rivera, D., & Ospina Mejía, J. (2020). Ecosistemas de innovación y desarrollo local sostenible. Cuadernos de Administración, 33(58), 85-102.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Guilera, L., & Garrell, A. (2021). Creatividad e innovación: Modelos, métodos y herramientas. Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Herrera Lemus, A., & Lazcano Herrera, C. (2020). Innovación abierta: Claves para una estrategia exitosa. Editorial ESIC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Hervás-Gómez, C., Cabero Fayos, I., & Tejada Garitano, E. (2024). Innovación en los procesos de enseñanza-aprendizaje: El papel de las tecnologías digitales. Editorial Síntesis.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Leiva Olivencia, J. L., & Matas Terrón, A. (2020). Retos de la innovación educativa en la era digital. Editorial Síntesis.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Marín, J. A., & Boffo, S. (2021). Challenges and innovations in educational research. European Educational Research Journal, 20(2), 165-168.
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/ln-UqKWZDZA?si=" target="_blank" rel="noopener noreferrer") Valora Analitik. (2022). Temas sociales, ambientales y de gobernanza, el nuevo foco de las empresas [video]. YouTube.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
